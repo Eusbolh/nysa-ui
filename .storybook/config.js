@@ -12,7 +12,7 @@ addParameters({
 });
 
 function loadStories() {
-  require('./welcome.stories')
+  require('./stories/welcome.stories')
   req.keys().forEach(filename => req(filename));
 }
 

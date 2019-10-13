@@ -3,8 +3,8 @@ import { create } from '@storybook/theming';
 export default create({
   base: 'light',
   
-  colorPrimary: '#69ffd0',
-  colorSecondary: '#f4b00f',
+  colorPrimary: '#16ec8f',
+  colorSecondary: '#10d781',
 
   // UI
   // appBg: 'white',
@@ -17,7 +17,7 @@ export default create({
   fontCode: 'monospace',
 
   // Text colors
-  textColor: '#5C7080',
+  textColor: '#394B59',
   textInverseColor: 'rgba(255,255,255,0.9)',
 
   // Toolbar default and active colors
@@ -31,7 +31,7 @@ export default create({
   inputTextColor: 'black',
   inputBorderRadius: 4,
 
-  brandTitle: 'crispy-ui',
-  brandUrl: 'https://github.com/Eusbolh/crispy-ui',
-  brandImage: 'https://b.imge.to/2019/07/24/Z51PF.png',
+  brandTitle: 'nysa-ui',
+  brandUrl: 'https://github.com/Eusbolh/nysa-ui',
+  brandImage: 'https://a.imge.to/2019/10/13/vLu8wG.png',
 });

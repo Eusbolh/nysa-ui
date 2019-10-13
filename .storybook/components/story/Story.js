@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 class Story extends Component {
   render() { 
     return (
-      <div className="story">{this.props.children}</div>
+      <div className="n-story">{this.props.children}</div>
     );
   }
 }
