@@ -1,0 +1,11 @@
+# basics
+.idea/
+.vscode/
+.storybook/
+storybook-static/
+
+# eslint
+.eslintrc
+
+# production
+/build
