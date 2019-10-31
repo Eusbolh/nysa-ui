@@ -1,0 +1,15 @@
+.n-showcaseelement {
+  margin-bottom: 16px;
+  margin-right: 16px;
+
+  .n-showcaseelement-title {
+    color: $gray1;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+
+  .n-showcaseelement-content {
+    margin-top: 4px;
+  }
+}

@@ -1,0 +1,104 @@
+.n-btn {
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 6px 12px;
+  text-decoration: none;
+  width: inherit;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+/* Intents */
+
+.n-btn-intent-default {
+  background-color: #fff;
+  border: 1px solid $gray5;
+  color: $dark-gray1;
+}
+
+.n-btn-intent-default:hover {
+  border-color: $gray4;
+}
+
+.n-btn-intent-primary {
+  background-color: $cobalt4;
+  border: 1px solid $cobalt2;
+  color: #fff;
+}
+
+.n-btn-intent-primary:hover {
+  background-color: $cobalt3;
+  border-color: $cobalt2;
+}
+
+.n-btn-intent-success {
+  background-color: $green4;
+  border: 1px solid $green2;
+  color: #fff;
+}
+
+.n-btn-intent-success:hover {
+  background-color: $green3;
+  border-color: $green2;
+}
+
+.n-btn-intent-danger {
+  background-color: $red4;
+  border: 1px solid $red2;
+  color: #fff;
+}
+
+.n-btn-intent-danger:hover {
+  background-color: $red3;
+  border-color: $red2;
+}
+
+.n-btn-intent-warning {
+  background-color: $orange4;
+  border: 1px solid $orange2;
+  color: #fff;
+}
+
+.n-btn-intent-warning:hover {
+  background-color: $orange3;
+  border-color: $orange2;
+}
+
+/* Minimal */
+
+.n-btn-minimal {
+  background-color: inherit;
+  border: none;
+  color: $dark-gray1;
+}
+
+.n-btn-minimal:hover {
+  background-color: $light-gray2;
+}
+
+/* Disabled */
+
+.n-btn-disabled {
+  background-color: $light-gray4;
+  border: none;
+  color: $gray5;
+  cursor: not-allowed;
+}
+
+.n-btn-disabled:hover {
+  background-color: $light-gray4;
+}
+
+/* Loading */
+
+.n-btn-loading {
+  border: none;
+  filter: grayscale(.1);
+  pointer-events: none;
+}

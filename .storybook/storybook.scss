@@ -1,141 +1,60 @@
 @import '../src/common/colors.scss';
 @import './components/index';
+.story-section-props {
+  padding: 16px 0;
 
-.story {
-  color: $gray1;
-  font-family: 'Rubik', sans-serif;
-  padding: 32px;
-
-  .story-code {
-    background-color: $light-gray3;
-    font-family: 'Consolas', sans-serif;
-    padding: 2px 4px;
-  }
-
-  .story-code-block {
-    background-color: $dark-gray5;
-    border: 1px solid $dark-gray3;
-    border-radius: 6px;
-    color: $turqoise5;
-    font-size: 12px;
-    font-family: 'Consolas', sans-serif;
-    padding: 16px;
-  }
-
-  .story-description {
-    color: $gray3;
-    font-size: 12px;
-  }
-
-  .story-section {
-    color: $gray1;
-    margin: 12px 0;
-
-    .story-section-title {
-      font-size: 16px;
-      font-weight: 500;
-    }
-
-    .story-section-text {
-      margin-top: 8px;
-      font-size: 14px;
-      line-height: 18px;
-    }
-  }
-
-  .story-showcase {
-    align-items: center;
-    background-color: $light-gray5;
-    border-radius: 6px;
+  .story-prop {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 16px 0;
+    padding: 12px;
+    
+    .story-prop-left {
+      min-width: 200px;
+      width: 200px;
 
-    .story-showcase-element {
-      margin: 16px;
-      flex-grow: 1;
-
-      .story-showcase-element-title {
-        color: $gray3;
-        font-size: 12px;
-        font-weight: 500;
+      .story-prop-name {
+        margin-bottom: 2px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 192px;
       }
 
-      .story-showcase-element-content {
-        margin-top: 4px;
+      .story-prop-required {
+        background-color: $cobalt4;
+        border-radius: 3px;
+        color: #fff;
+        padding: 3px 4px;
+        width: min-content;
       }
     }
-  }
 
-  .story-showcase-white {
-    background-color: #fff;
-  }
-
-  .story-title {
-    font-size: 24px;
-  }
-
-  .story-todo {
-    color: $gray5;
-  }
-
-  .story-section-props {
-    padding: 16px 0;
-
-    .story-prop {
-      display: flex;
-      padding: 12px;
+    .story-prop-right {
+      width: -webkit-fill-available;
+      width: -moz-available;
       
-      .story-prop-left {
-        min-width: 200px;
-        width: 200px;
+      .story-prop-type-and-default {
+        align-items: center;
+        display: flex;
+        margin-bottom: 4px;
 
-        .story-prop-name {
-          margin-bottom: 2px;
-          white-space: nowrap;
-          overflow: hidden;
-          text-overflow: ellipsis;
-          width: 192px;
+        .story-prop-type {
+          font-weight: bold;
         }
 
-        .story-prop-required {
-          background-color: $cobalt4;
-          border-radius: 3px;
-          color: #fff;
-          padding: 3px 4px;
-          width: min-content;
+        .story-prop-default {
+          color: $gray3;
+          margin-left: 8px;
+          font-style: italic;
         }
       }
 
-      .story-prop-right {
-        width: -webkit-fill-available;
-        width: -moz-available;
+      .story-prop-content {
         
-        .story-prop-type-and-default {
-          align-items: center;
-          display: flex;
-          margin-bottom: 4px;
-
-          .story-prop-type {
-            font-weight: bold;
-          }
-
-          .story-prop-default {
-            color: $gray3;
-            margin-left: 8px;
-            font-style: italic;
-          }
-        }
-
-        .story-prop-content {
-          
-        }
       }
     }
+  }
 
-    .story-prop:nth-child(2n-1) {
-      background-color: $light-gray5;
-    }
+  .story-prop:nth-child(2n-1) {
+    background-color: $light-gray5;
   }
 }
