@@ -163,18 +163,6 @@ storiesOf('Button')
             {renderProps(props)}
           </SectionContent>
         </Section>
-        <Section>
-          <SectionHead title="Import" />
-          <SectionContent>
-            You can import React components from the package.
-            <CodeSnippet>
-              {`import { Button } from 'nysa-ui';`}
-              <br />
-              <br />
-              {`<Button intent="success" text="Click me!" />`}
-            </CodeSnippet>
-          </SectionContent>
-        </Section>
       </StoryContent>
     </Story>
   ));

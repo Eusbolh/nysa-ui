@@ -14,8 +14,8 @@
     width: calc(100% - 10px);
     height: calc(100% - 10px);
     border-radius: 50%;
-    border: 5px solid $dark-gray1;
-    border-color: $dark-gray1 $dark-gray5 $dark-gray1 transparent;
+    border: 3px solid $light-gray1;
+    border-color: $light-gray1 $light-gray1 $light-gray5 $light-gray5;
     animation: n-spinner 1.2s linear infinite;
   }
   
@@ -30,8 +30,8 @@
     width: calc(100% - 6px);
     height: calc(100% - 6px);
     border-radius: 50%;
-    border: 3px solid $light-gray1;
-    border-color: $light-gray1 $light-gray1 $light-gray5 $light-gray5;
+    border: 3px solid #fff;
+    border-color: $light-gray1 $light-gray1 #fff #fff;
     animation: n-spinner 0.75s linear infinite;
   }
   
@@ -46,8 +46,8 @@
     width: calc(100% - 10px);
     height: calc(100% - 10px);
     border-radius: 50%;
-    border: 5px solid $light-gray1;
-    border-color: $light-gray1 $light-gray1 $light-gray5 $light-gray5;
+    border: 5px solid #fff;
+    border-color: $light-gray1 $light-gray1 #fff #fff;
     animation: n-spinner 0.75s linear infinite;
   }
   
@@ -62,8 +62,8 @@
     width: calc(100% - 14px);
     height: calc(100% - 14px);
     border-radius: 50%;
-    border: 7px solid $light-gray1;
-    border-color: $light-gray1 $light-gray1 $light-gray5 $light-gray5;
+    border: 7px solid #fff;
+    border-color: $light-gray1 $light-gray1 #fff #fff;
     animation: n-spinner 0.75s linear infinite;
   }
 }
