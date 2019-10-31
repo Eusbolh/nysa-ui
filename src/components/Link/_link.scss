@@ -1,0 +1,30 @@
+.n-link {
+  background-color: inherit;
+  border: none;
+  color: $dark-gray1;
+  padding: 0;
+}
+
+.n-link:hover {
+  text-decoration: underline;
+}
+
+.n-link-intent-default:hover {
+  color: $dark-gray1;
+}
+
+.n-link-intent-primary:hover {
+  color: $cobalt3;
+}
+
+.n-link-intent-success:hover {
+  color: $green3;
+}
+
+.n-link-intent-danger:hover {
+  color: $red3;
+}
+
+.n-link-intent-warning:hover {
+  color: $orange3;
+}

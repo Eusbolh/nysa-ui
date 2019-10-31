@@ -3,7 +3,6 @@ import { storiesOf } from '@storybook/react';
 import { renderProps } from './../stories.helpers';
 import { action } from '@storybook/addon-actions';
 import {
-  CodeSnippet,
   Section,
   Story,
   StoryHead,

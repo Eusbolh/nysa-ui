@@ -3,7 +3,6 @@ import { storiesOf } from '@storybook/react';
 import { renderProps } from './../stories.helpers';
 import { action } from '@storybook/addon-actions';
 import {
-  CodeSnippet,
   Section,
   Story,
   StoryHead,
@@ -26,17 +25,17 @@ const props = [
     content: 'If it is set to true, the button will be an anchor button and you will be able to interact it with mouse middle click.',
   }, {
     default: null,
-    name: 'classes',
-    required: false,
-    type: 'string',
-    content: 'CSS class names to override the default styling.',
-  }, {
-    default: null,
     name: 'children',
     required: false,
     type: 'node',
     content: 'It is used to display whatever you include between the opening and closing tags of the component. If it is set, it will override the text prop.',
-  }, {
+  },  {
+    default: null,
+    name: 'classes',
+    required: false,
+    type: 'string',
+    content: 'CSS class names to override the default styling.',
+  },{
     default: 'false',
     name: 'disabled',
     required: false,
@@ -47,7 +46,7 @@ const props = [
     name: 'href',
     required: false,
     type: 'string',
-    content: 'It is used when anchor prop is set to true. When anchor button is middle clicked, the page is redirected to the link provided with this prop.',
+    content: 'It is used when anchor prop is set to true. When anchor button is middle clicked, the page is redirected to the URL provided with this prop.',
   }, {
     default: 'default',
     name: 'intent',
