@@ -146,9 +146,11 @@ storiesOf('Button')
               </Button>
             </ShowCaseElement>
             <ShowCaseElement title="loading">
-              <Button intent="primary" loading onClick={action('Loading button is clicked!')}>
-                Loading
-              </Button>
+              <div style={{ width: '100px' }}>
+                <Button intent="primary" loading onClick={action('Loading button is clicked!')}>
+                  Loading
+                </Button>
+              </div>
             </ShowCaseElement>
           </ShowCase>
         </Section>

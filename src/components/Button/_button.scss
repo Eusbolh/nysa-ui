@@ -1,9 +1,11 @@
 .n-btn {
   border-radius: 3px;
   cursor: pointer;
+  display: flex;
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: 500;
+  justify-content: center;
   padding: 6px 12px;
   text-decoration: none;
   width: inherit;

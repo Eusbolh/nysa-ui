@@ -1,10 +1,11 @@
 .n-spinner-light {
-  width: inherit;
   height: inherit;
+  width: inherit;
 
   .n-spinner {
-    width: inherit;
+    box-sizing: unset;
     height: inherit;
+    width: inherit;
   }
   
   .n-spinner:after {
@@ -19,8 +20,8 @@
   }
   
   .n-spinner-small {
-    width: inherit;
     height: inherit;
+    width: inherit;
   }
   
   .n-spinner-small:after {
@@ -35,8 +36,8 @@
   }
   
   .n-spinner-medium {
-    width: inherit;
     height: inherit;
+    width: inherit;
   }
   
   .n-spinner-medium:after {
@@ -51,8 +52,8 @@
   }
   
   .n-spinner-large {
-    width: inherit;
     height: inherit;
+    width: inherit;
   }
   
   .n-spinner-large:after {
@@ -68,12 +69,13 @@
 }
 
 .n-spinner-dark {
-  width: inherit;
   height: inherit;
+  width: inherit;
 
   .n-spinner {
-    width: inherit;
+    box-sizing: unset;
     height: inherit;
+    width: inherit;
   }
   
   .n-spinner:after {
@@ -88,8 +90,8 @@
   }
   
   .n-spinner-small {
-    width: inherit;
     height: inherit;
+    width: inherit;
   }
   
   .n-spinner-small:after {
@@ -104,8 +106,8 @@
   }
   
   .n-spinner-medium {
-    width: inherit;
     height: inherit;
+    width: inherit;
   }
   
   .n-spinner-medium:after {
@@ -120,8 +122,8 @@
   }
   
   .n-spinner-large {
-    width: inherit;
     height: inherit;
+    width: inherit;
   }
   
   .n-spinner-large:after {
