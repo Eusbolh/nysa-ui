@@ -23,7 +23,7 @@ class Link extends Component {
         classes={this.getClasses(props)}
         href={props.href}
         onClick={props.onClick}
-        text={props.text}
+        text={props.children || props.text}
       />
     );
   }
