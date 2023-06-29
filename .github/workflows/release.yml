@@ -1,13 +1,11 @@
 name: Release
 
 on:
-  pull_request:
-    types:
-      - closed
+  pull_request
 
 jobs:
   release:
-    if: github.event.pull_request.merged == true && github.event.label.name == 'release'
+    if: github.event.pull_request.merged == true && contains(github.event.*.labels.*.name, 'release')
     runs-on: ubuntu-latest
     steps:
       - run: echo "Release workflow is run!"
