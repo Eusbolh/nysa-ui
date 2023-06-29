@@ -4,10 +4,11 @@ on:
   pull_request:
     types:
       - closed
+      - labeled
 
 jobs:
   release:
-    if: github.event.pull_request.merged == true
+    if: github.event.pull_request.merged == true && github.event.label.name == 'release'
     runs-on: ubuntu-latest
     steps:
     - run: echo "Release workflow is run!"
